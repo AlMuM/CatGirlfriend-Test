@@ -24,7 +24,7 @@
 每个版本的 Release 说明里附有 ZIP 的 SHA-256，可以用 PowerShell 核对：
 
 ```powershell
-Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.15-win-x64.zip -Algorithm SHA256
+Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.16-win-x64.zip -Algorithm SHA256
 ```
 
 ## 说明
