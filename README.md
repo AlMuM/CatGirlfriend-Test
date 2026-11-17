@@ -4,7 +4,7 @@
 
 - 适用：Windows 10 / 11，64 位
 - 下载：到右侧的 **Releases** 下载最新版本里的 `CatGirlfriend-Classmate-…-win-x64.zip`
-- 安装包里**没有任何 Key**。聊天和语音需要的配置文件（`.catkey`）由分享者单独私发给你
+- 安装包里**没有任何 Key**。聊天、语音和看屏需要的配置文件（`.catkey`）由分享者单独私发给你，导入一次就全部配好
 
 ## 怎么用
 
@@ -14,7 +14,8 @@
    - 首次启动的提示里点“导入配置文件…”，选中这个文件；
    - 或者先把 `.catkey` 放到 `CatGirlfriend Test.exe` 同一个文件夹，再打开程序，会自动导入；
    - 以后也可以在“设置 → 模型连接”里点“导入配置文件”，或直接把文件拖进窗口。
-4. 显示“已配置”后，选“开启语音并开始”或“仅文字开始”，就可以聊天了。
+4. 在“设置 → 模型连接”能看到三项状态：聊天、语音“已配置”，看屏“沿用聊天模型”。想确认能用，点“测试连接”，会逐项显示“可用”或具体原因（Key 无效、额度不足、模型不支持图片、网络问题）。
+5. 选“开启语音并开始”或“仅文字开始”，就可以聊天了。看屏陪伴默认关闭，需要时在设置里开启，不用另外配置。
 
 导入的 Key 由系统加密保存在本机，界面不会显示 Key 本身。导入后可以删除 `.catkey` 文件。
 
@@ -23,7 +24,7 @@
 每个版本的 Release 说明里附有 ZIP 的 SHA-256，可以用 PowerShell 核对：
 
 ```powershell
-Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.12-win-x64.zip -Algorithm SHA256
+Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.13-win-x64.zip -Algorithm SHA256
 ```
 
 ## 说明
