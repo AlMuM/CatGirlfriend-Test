@@ -19,12 +19,16 @@
 
 导入的 Key 由系统加密保存在本机，界面不会显示 Key 本身。导入后可以删除 `.catkey` 文件。
 
+## 更新
+
+从 preview.19 起，每次打开、联网时程序会自动检查新版本，点“立即更新”即可：程序会下载并校验新版，关闭后自动替换再重新打开。聊天记录、已导入的配置（API Key、音色）和设置都保留，不用重新导入。从 preview.18 或更早版本升级，需要手动下载一次。
+
 ## 校验
 
 每个版本的 Release 说明里附有 ZIP 的 SHA-256，可以用 PowerShell 核对：
 
 ```powershell
-Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.16-win-x64.zip -Algorithm SHA256
+Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.19-win-x64.zip -Algorithm SHA256
 ```
 
 ## 说明
