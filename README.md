@@ -3,7 +3,7 @@
 这里只放 CatGirlfriend 同学测试版的 Windows 安装包，不含源码。
 
 - 适用：Windows 10 / 11，64 位
-- 下载：到右侧的 **Releases** 下载最新版本里的 `CatGirlfriend-Classmate-…-win-x64.zip`
+- 下载：前往 [GitHub 最新版下载页](https://github.com/AlMuM/CatGirlfriend-Test/releases/latest)，选择 `CatGirlfriend-Classmate-…-win-x64.zip`
 - 安装包里**没有任何 Key**。聊天、语音和看屏需要的配置文件（`.catkey`）由分享者单独私发给你，导入一次就全部配好
 
 ## 怎么用
@@ -21,7 +21,7 @@
 
 ## 已经安装过旧版
 
-如果正在使用 preview.22 或更早的同学版，可以继续使用。想体验 preview.23 时，请手动下载一次完整 ZIP。
+preview.24 更新了桌宠聊天的输入和回复气泡。使用 preview.22 或更早版本时，可以手动升级。
 
 1. 从任务栏右下角的托盘菜单退出旧程序。
 2. 在 [GitHub 下载页](https://github.com/AlMuM/CatGirlfriend-Test/releases/latest) 下载以 `-win-x64.zip` 结尾的文件，完整解压到新的可写文件夹。
@@ -34,7 +34,7 @@
 GitHub 发布页会在完整 ZIP 旁显示 SHA-256。也可以在下载目录运行 PowerShell 核对。
 
 ```powershell
-Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.23-win-x64.zip -Algorithm SHA256
+Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.24-win-x64.zip -Algorithm SHA256
 ```
 
 ## 说明
