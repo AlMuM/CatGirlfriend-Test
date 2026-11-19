@@ -19,16 +19,23 @@
 
 导入的 Key 由系统加密保存在本机，界面不会显示 Key 本身。导入后可以删除 `.catkey` 文件。
 
-## 更新
+## 已经安装过旧版
 
-从 preview.19 起，每次打开、联网时程序会自动检查新版本，点“立即更新”即可：程序会下载并校验新版，关闭后自动替换再重新打开。聊天记录、已导入的配置（API Key、音色）和设置都保留，不用重新导入。从 preview.18 或更早版本升级，需要手动下载一次。
+这次请重新下载一次完整 ZIP。适用于 preview.21 及更早的同学测试版，包括 preview.19 和普通 preview.20。
+
+1. 在任务栏右下角的托盘图标菜单中点「退出」。
+2. 打开 [GitHub 最新发布页](https://github.com/AlMuM/CatGirlfriend-Test/releases/latest)，下载文件名以 `-win-x64.zip` 结尾的完整包。
+3. 完整解压到一个新的、自己可以写入的文件夹，打开里面的 `CatGirlfriend Test.exe`。如果你为旧版建过快捷方式，可以改到新位置。
+4. 用原来的 Windows 账户打开新版，就能继续使用同学版的聊天、草稿、角色记忆、桌宠设置和已导入配置。
+
+从 preview.22 起，后续版本可以在应用里点「立即更新」。程序会校验下载的完整 ZIP，等更新助手就绪后退出，完成替换后重新打开。如果锁定文件的程序导致替换失败，助手会尝试恢复旧版。看到更新失败提示时，可关闭占用文件的程序后重试，或按上面的步骤重新解压完整包。
 
 ## 校验
 
-每个版本的 Release 说明里附有 ZIP 的 SHA-256，可以用 PowerShell 核对：
+GitHub 发布页会在完整 ZIP 旁显示 SHA-256。也可以在下载目录运行 PowerShell 核对。
 
 ```powershell
-Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.19-win-x64.zip -Algorithm SHA256
+Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.22-win-x64.zip -Algorithm SHA256
 ```
 
 ## 说明
