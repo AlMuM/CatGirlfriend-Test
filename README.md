@@ -21,21 +21,20 @@
 
 ## 已经安装过旧版
 
-这次请重新下载一次完整 ZIP。适用于 preview.21 及更早的同学测试版，包括 preview.19 和普通 preview.20。
+如果正在使用 preview.22 或更早的同学版，可以继续使用。想体验 preview.23 时，请手动下载一次完整 ZIP。
 
-1. 在任务栏右下角的托盘图标菜单中点「退出」。
-2. 打开 [GitHub 最新发布页](https://github.com/AlMuM/CatGirlfriend-Test/releases/latest)，下载文件名以 `-win-x64.zip` 结尾的完整包。
-3. 完整解压到一个新的、自己可以写入的文件夹，打开里面的 `CatGirlfriend Test.exe`。如果你为旧版建过快捷方式，可以改到新位置。
-4. 用原来的 Windows 账户打开新版，就能继续使用同学版的聊天、草稿、角色记忆、桌宠设置和已导入配置。
+1. 从任务栏右下角的托盘菜单退出旧程序。
+2. 在 [GitHub 下载页](https://github.com/AlMuM/CatGirlfriend-Test/releases/latest) 下载以 `-win-x64.zip` 结尾的文件，完整解压到新的可写文件夹。
+3. 使用原来的 Windows 账户打开新文件夹中的 `CatGirlfriend Test.exe`。聊天、草稿、角色记忆、桌宠设置和已导入的配置会沿用。旧快捷方式可改指向新文件夹。
 
-从 preview.22 起，后续版本可以在应用里点「立即更新」。程序会校验下载的完整 ZIP，等更新助手就绪后退出，完成替换后重新打开。如果锁定文件的程序导致替换失败，助手会尝试恢复旧版。看到更新失败提示时，可关闭占用文件的程序后重试，或按上面的步骤重新解压完整包。
+从 preview.23 起，发现后续新版时，聊天窗口右上角会出现「↓ 更新」，桌宠右上角会出现小下载箭头。可继续聊天，或点入口查看版本、选择「下载并更新」或「跳过此版」。只有选择下载才会获取安装包。升级前会校验文件，完成后应用会重新打开。
 
 ## 校验
 
 GitHub 发布页会在完整 ZIP 旁显示 SHA-256。也可以在下载目录运行 PowerShell 核对。
 
 ```powershell
-Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.22-win-x64.zip -Algorithm SHA256
+Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.23-win-x64.zip -Algorithm SHA256
 ```
 
 ## 说明
