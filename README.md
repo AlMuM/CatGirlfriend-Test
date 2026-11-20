@@ -34,7 +34,7 @@ preview.24 更新了桌宠聊天的输入和回复气泡。使用 preview.22 或
 GitHub 发布页会在完整 ZIP 旁显示 SHA-256。也可以在下载目录运行 PowerShell 核对。
 
 ```powershell
-Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.24-win-x64.zip -Algorithm SHA256
+Get-FileHash .\CatGirlfriend-Classmate-0.14.0-preview.29-win-x64.zip -Algorithm SHA256
 ```
 
 ## 说明
